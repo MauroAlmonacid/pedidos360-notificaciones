@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import cl.duoc.pedidos360.notificaciones.service.EmailService;
 
 @RestController
-@RequestMapping("/api/email")
+@RequestMapping({"/api/email", "/notificaciones"})
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class EmailController {
 
